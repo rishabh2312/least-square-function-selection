@@ -1,6 +1,6 @@
-# Ideal Function Analyzer - Quick Start Guide
+# Least Square Function Selection - Quick Start Guide
 
-Get the Ideal Function Analyzer up and running in 5 minutes!
+Get the Least Square Function Selection up and running in 5 minutes!
 
 ## 📋 Prerequisites
 
@@ -23,8 +23,8 @@ All dependencies are in `requirements.txt`:
 
 ```bash
 # 1. Clone the repository (develop branch)
-git clone -b develop https://github.com/yourusername/ideal-function-analyzer.git
-cd ideal-function-analyzer
+git clone -b develop https://github.com/rishabh2312/least-square-function-selection.git
+cd least-square-function-selection
 
 # 2. Create and activate virtual environment
 python3 -m venv .venv
@@ -43,7 +43,7 @@ python run.py
 ```cmd
 # 1. Clone the repository (develop branch)
 git clone -b develop https://github.com/rishabh2312/least-square-function-selection.git
-cd ideal-function-analyzer
+cd least-square-function-selection
 
 # 2. Create and activate virtual environment
 python -m venv .venv
@@ -61,8 +61,8 @@ python run.py
 
 ```powershell
 # 1. Clone the repository (develop branch)
-git clone -b develop https://github.com/yourusername/ideal-function-analyzer.git
-cd ideal-function-analyzer
+git clone -b develop https://github.com/rishabh2312/least-square-function-selection.git
+cd least-square-function-selection
 
 # 2. Create and activate virtual environment
 python -m venv .venv
@@ -132,8 +132,8 @@ The program generates 6 interactive HTML visualizations in the `output/` folder:
 | # | Visualization | Description |
 |---|--------------|-------------|
 | 1 | **Complete Overview** | All 50 ideal functions, 4 selected ideals, training data, and test points |
-| 2 | **Deviation Heatmap** | Test points colored by deviation magnitude (color gradient) |
-| 3 | **Training vs Ideal Grid** | 2×2 grid showing each training function vs its matched ideal |
+| 2 | **Training vs Ideal Grid** | 2×2 grid showing each training function vs its matched ideal |
+| 3 | **Deviation Heatmap** | Test points colored by deviation magnitude (color gradient) |
 | 4 | **Regression Analysis** | Residual plots with R², RMSE, MAE, and SSD metrics |
 | 5 | **Training vs Ideal Overlay** | All 4 training-ideal pairs overlayed in a single plot |
 | 6 | **Assigned vs Unassigned** | Green circles (assigned) vs red X (rejected) test points |
@@ -164,7 +164,7 @@ The program generates 6 interactive HTML visualizations in the `output/` folder:
 ## 📁 Project Structure
 
 ```
-ideal-function-analyzer/
+least-square-function-selection/
 ├── data/                    # Input CSV files
 │   ├── train.csv           # 4 training functions (400 points each)
 │   ├── ideal.csv           # 50 ideal functions (400 points each)
