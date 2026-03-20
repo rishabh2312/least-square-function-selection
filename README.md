@@ -122,10 +122,8 @@ Ideal Function 13:   8 points  (23.5%)
 Ideal Function 24:   9 points  (26.5%)
 Ideal Function 36:  10 points  (29.4%)
 Ideal Function 40:   7 points  (20.6%)
+============================================================
 
-============================================================
-PROCESS COMPLETED SUCCESSFULLY
-============================================================
 ```
 
 ## View Results
