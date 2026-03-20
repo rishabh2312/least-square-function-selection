@@ -1,0 +1,12 @@
+# Clone the repository to the local computer
+git clone https://github.com/rishabh2312/least-square-function-selection.git
+
+# Add all the files which have changes in the project
+git add .
+
+# Commit the code changes with proper message
+git commit -m "Implemented the python task for the Least Square Function Selection and Mapping with Test Data Points"
+
+# Push the changes to the remote branch
+git push origin main
+
