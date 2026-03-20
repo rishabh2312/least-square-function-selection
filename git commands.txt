@@ -1,12 +1,34 @@
-# Clone the repository to the local computer
-git clone https://github.com/rishabh2312/least-square-function-selection.git
 
-# Add all the files which have changes in the project
+# Initializing the git
+git init
+
+# Creating the develop branch
+git branch -m develop
+
+# Added the remote
+git remote add origin https://github.com/rishabh2312/least-square-function-selection.git
+
+# Adding a file for the Initial Commit
+git add QUICKSTART.md
+
+# Committing the file
+git commit -m "Initial Commit"
+
+# Pushed the changes to the develop branch
+git push -u origin develop
+
+# Creating the feature branch feature/python-task-assignment
+git branch -b feature/python-task-assignment
+
+# Check out the feature branch
+git checkout -b feature/python-task-assignment
+
+# Adding all the files to commit
 git add .
 
-# Commit the code changes with proper message
-git commit -m "Implemented the python task for the Least Square Function Selection and Mapping with Test Data Points"
+# Committing the changes
+git commit -m "Implementation for the assignment of least square function selection"
 
-# Push the changes to the remote branch
-git push origin main
+# Pushing the changes to the feature branch
+git push --set-upstream origin feature/python-task-assignment
 
