@@ -96,16 +96,36 @@ Once you run `python run.py`, the program will:
 ### Expected Console Output
 
 ```
-INFO | Selection complete: [
-  {'training_col': 'y1', 'best_ideal_fun': 13, 'best_min_ssd': 34.08},
-  {'training_col': 'y2', 'best_ideal_fun': 24, 'best_min_ssd': 33.45},
-  {'training_col': 'y3', 'best_ideal_fun': 36, 'best_min_ssd': 35.57},
-  {'training_col': 'y4', 'best_ideal_fun': 40, 'best_min_ssd': 34.99}
-]
+Training table already contains 400 rows.
+Ideal functions table already contains 400 rows.
+Test results table already contains 100 rows.
 
-Total test points: 100, Assigned: 34, Unassigned: 66
+============================================================
+IDEAL FUNCTION SELECTION COMPLETE
+============================================================
+Training Y1 → Ideal Function 13 | SSD: 34.0807 | Maximum Deviation: 0.499221
+Training Y2 → Ideal Function 24 | SSD: 33.4518 | Maximum Deviation: 0.499000
+Training Y3 → Ideal Function 36 | SSD: 35.5727 | Maximum Deviation: 0.498943
+Training Y4 → Ideal Function 40 | SSD: 34.9989 | Maximum Deviation: 0.499779
 
-ALL VISUALIZATIONS COMPLETE!
+============================================================
+TEST POINT MAPPING SUMMARY
+============================================================
+Total Test Points:        100
+Successfully Assigned:     34 (34.0%)
+Unassigned (Rejected):     66 (66.0%)
+
+------------------------------------------------------------
+Distribution of Assigned Points:
+------------------------------------------------------------
+Ideal Function 13:   8 points  (23.5%)
+Ideal Function 24:   9 points  (26.5%)
+Ideal Function 36:  10 points  (29.4%)
+Ideal Function 40:   7 points  (20.6%)
+
+============================================================
+PROCESS COMPLETED SUCCESSFULLY
+============================================================
 ```
 
 ## View Results
